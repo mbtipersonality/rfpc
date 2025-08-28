@@ -4,7 +4,7 @@ import React from 'react'
 function App() {
   const handleClick = () => {
     
-    const number = Math.floor(Math.random() * (1568 - 181 + 1)) + 181;
+    const number = Math.floor(Math.random() * (381 - 181 + 1)) + 181;
     
     window.location = `https://redditfavorites.com/product_categories/subjects?page=${number}`
   }
