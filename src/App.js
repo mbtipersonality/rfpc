@@ -4,7 +4,7 @@ import React from 'react'
 function App() {
   const handleClick = () => {
 
-    const search1 = Array.from({ length: 201 }, (_, i) => i + 181);
+    const search1 = Array.from({ length: 201 }, (_, i) => i + 383);
 
     const search2 = JSON.parse(localStorage.getItem('numbers'))
     if(!search2){
