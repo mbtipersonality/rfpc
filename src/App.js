@@ -15,7 +15,7 @@ function App() {
     const newNumbers = search2.filter(item => item !== randSearch)
     localStorage.setItem('numbers', JSON.stringify(newNumbers))
     
-    window.location = `https://redditfavorites.com/product_categories/subjects?page=${randSearch}`
+    window.location = `https://crowdfavs.com/product_categories/subjects?page=${randSearch}`
   }
   return (
     <div className='App' onClick={handleClick}>
